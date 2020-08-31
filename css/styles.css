@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Brother1816';
+  src: url('../fonts/regular.woff2') format('woff2'),
+    url('../fonts/regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brother1816';
+  src: url('../fonts/light_italic.woff2') format('woff2'),
+    url('../fonts/light_italic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Brother1816';
+  src: url('../fonts/medium_italic.woff2') format('woff2'),
+    url('../fonts/medium_italic.woff') format('woff');
+  font-weight: bolder;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Brother1816';
+  src: url('../fonts/bold.woff2') format('woff2'),
+    url('../fonts/bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* TEXT STYLES */
+body { font-family: "Source Sans Pro", Arial, sans-serif; color: #1e3944; }
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5
+  { font-family: "Brother1816", Arial, sans-serif; }
+h1, .h1 { font-weight: bold; font-size: 33px; text-transform: uppercase; }
+h2, .h2 { font-weight: 100; font-style: italic; font-size: 28px; }
+h3, .h3 { font-weight: bolder; font-style: italic; font-size: 30px; }
+h4, .h4 { font-weight: bolder; font-style: italic; font-size: 14px; }
+h5, .h5 { font-weight: normal; font-size: 16px; color: #808080; }
+p { font-size: 15px; }
+.nav-item p { font-size: 16px; cursor: pointer; }
+
+.tagline .h2 { font-size: 45px; line-height: .6em; }
+.tagline span { font-size: 95px; margin-left: 90px; }
+
+.pick-project { text-align: center; }
+
+/* PADDING STYLES */
+.row { padding-top: 25px; padding-bottom: 25px; }
+.taller { padding: 40px 0; }
+.slideshow, .feature { padding: 25px 0; position: relative; }
+.tasks { padding: 15px 0; }
+
+/* COLOR STYLES */
+.blue { color: #1e3944; }
+.blue-bg { background-color: #1e3944; }
+.red { color: #de5b49; }
+.red-bg { background-color:#de5b49; }
+.green { color: #d2ca4d; }
+.green-bg { background-color: #d2ca4d; }
+.gray { color: #808080; }
+.light-bg { background-color: #f7f6f2; }
+
+.pattern-bg { background-color: #1e3944; background-image: linear-gradient(to bottom, rgba(30, 57, 68, .2), #1e3944), url("../img/pattern.png"); color: #D3D3D3; }
+.light-pattern-bg { background-color: #1e3944; background-image: url("../img/pattern-light.png"); color: #D3D3D3; }
+
+/* LINK STYLES */
+a { color: #1e3944; }
+a:hover { color: #2a5f75; }
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link { color: #fff; }
+
+/* BUTTON STYLES */
+.btn { border-radius: 0; width: 135px; height: 25px; padding: 0 10px; font-size: 14px; line-height: 23px; text-align: left; }
+
+.btn-primary { background-color: #de5b49; border-color: #de5b49; }
+.btn-primary:hover { background-color: #c35141; border-color: #c35141; }
+.btn-primary:active { background-color: #c35141; border-color: #c35141; }
+
+.btn-outline-primary { color: #de5b49; border-color: #de5b49; }
+.btn-outline-primary:not(:disabled):not(.disabled):active { background-color: #de5b49; border-color: #de5b49; }
+.btn-outline-primary:hover { background-color: #de5b49; border-color: #de5b49; color: #fff; }
+.btn-outline-primary:focus, .btn-primary:focus { box-shadow: none; }
+
+.arrow-box { display: inline-block; position: absolute; top: -50px; left: 15px; padding: 10px; background-color: #de5b49; color: #fff; }
+.arrow-box span { cursor: pointer;}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 992px) {
+  .mobile.light-bg { height: 900px; overflow: hidden; }
+  .mobile .container { margin-top: -500px; }
+}
+
+@media screen and (max-width: 575px) {
+  .row { margin-left: 0; margin-right: 0; }
+  .tagline span { margin-left: 30px; }
+  #slider { width: 100% !important; }
+}
+
+/* TEST CONTACT STYLES */
+#slider { width:500px; height: 100%; position:fixed; z-index: 10; }
+#slider .arrow-box { top: 15px; right: 15px; left: auto; }
+#header {
+  height: 100%;
+  position:absolute;
+  right:0;
+  z-index: 10;
+  background-color: #f1f1f1;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin-left:40px;
+  padding:20px 40px;
+}
+input, textarea { margin-top: 10px; padding: 6px; width: 100%; border:3px solid #609eb7; }
+textarea { height:80px; }

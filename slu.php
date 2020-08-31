@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59235137-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-59235137-5');
+  </script>
+
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico">
+  <title>Ryann Brown | Southeastern LA University</title>
+  <meta name="description" content="I'm Ryann Brown, a web designer based in Baton Rouge, Louisiana. I have a passion for web, but I also have a passion for learning, so my skillset is constantly evolving. Helping small businesses provide their clients with functional and user-friendly websites is what I work hard to do for you.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <?php include 'inc/contact-code.php'; ?>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.php"><img src="img/header-logo.png" height="30" alt="RGB Logo" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ml-auto" role="navigation">
+          <li class="nav-item">
+            <a class="nav-link" href="about.php">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact" onclick="slideOut()" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row taller">
+      <div class="col-sm-5 offset-sm-1">
+        <h1>Southeastern Louisiana University</h1>
+        <h2>Reevaluating who the target audience really is.</h2>
+        <p class="h5 tasks">design & code</p>
+      </div>
+      <div class="col-sm-5">
+        <p>
+          Southeastern is a university in Louisiana of almost 15,500 students, from across the country and around the world. They are devoted to making sure their students feel like they aren't just a number to the university but that they are important as an individual. It was this active marketing change that spurred the redesign of not only their homepage, but also most of their top level pages to begin being geared toward new, incoming students.
+        </p>
+        <a class="btn btn-outline-primary" href="https://www.southeastern.edu/" role="button">view site</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pattern-bg">
+    <div class="container feature">
+      <img class="img-fluid" src="img/slu-projtop.jpg" alt="Homepage"  />
+    </div>
+  </div>
+
+  <div class="container taller">
+    <div class="row">
+      <div class="col-sm-5 offset-sm-1">
+        <h3>the task</h3>
+        <p>The redesign started as a homepage redesign that would be able to funnel incoming students through to admission in a clearer and more helpful path. However, it quickly became clear that in order to do that well, we would need to readdress more pages. These included our Admissions page, Campus Life, Academics, etc. Also, by removing information geared toward enrolled students from the homepage, there would need to be a new pseudo-homepage created for them, which we deemed My Den.  </p>
+      </div>
+      <div class="col-sm-5">
+        <h3>the process</h3>
+        <p>These pages were redesigned based on the results of hours of research and multiple user group studies of not only the existing site, but also studies done after designs were done to ensure that the results were working. We worked as a committee of 8 - 10 members, from faculty, marketers, students, etc. The process took almost a year and was received very well upon launch. We created a couple new pages for existing students, and embraced new technologies, such as using a video on the homepage.  </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="light-bg">
+    <div class="container slideshow" id="slideshow">
+      <div class="arrow-box">
+        <h1><span id="down">&lt;</span> &nbsp; <span id="counter">1</span> / <span id="maximum">5</span> &nbsp; <span id="up">&gt;</span></h1>
+      </div>
+      <img id="1" class="slide img-fluid d-block" src="img/slu-home-desk.png" alt="Homepage" />
+      <img id="2" class="slide img-fluid d-none" src="img/slu-den-desk.png" alt="My Den Page" />
+      <img id="3" class="slide img-fluid d-none" src="img/slu-admission-desk.png" alt="Admissions Page" />
+      <img id="4" class="slide img-fluid d-none" src="img/slu-campus-desk.png" alt="Campus Life Page" />
+      <img id="5" class="slide img-fluid d-none" src="img/slu-news-desk.png" alt="News Page" />
+    </div>
+  </div>
+
+  <div class="light-pattern-bg">
+    <div class="container taller">
+      <div class="row justify-content-center">
+        <div class="col-sm-5">
+          <h1>Identity</h1>
+          <h2>You Are Unique</h2>
+          <p>
+            During this redesign, we tried to adapt an existing but restrictive brand to be more open and lively for the web. These changes were based on previous marketing materials that had gone to print around the same time. This included a lot of new elements that we could begin using across the site, incorporating more photography of the campus and students, and a wider range of colors to be used across the web.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="light-bg mobile">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <img class="img-fluid" src="img/slu-myden-mob.png" alt="Mobile My Den Page" />
+          <img class="img-fluid" src="img/slu-happen-mob.png" alt="Mobile Campus Happenings Page" />
+        </div>
+        <div class="col-lg-4">
+          <img class="img-fluid" src="img/slu-news-mob.png" alt="Mobile News Page" />
+          <img class="img-fluid" src="img/slu-home-mob.png" alt="Mobile Homepage" />
+          <img class="img-fluid d-none d-lg-block" src="img/slu-news-mob.png" alt="Mobile News Page" />
+        </div>
+        <div class="col-lg-4">
+          <img class="img-fluid" src="img/slu-campus-mob.png" alt="Mobile Campus Life Page" />
+          <img class="img-fluid" src="img/slu-admissions-mob.png" alt="Mobile Admissions Page" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container taller pick-project">
+    <div class="row">
+      <div class="col-sm-5 offset-sm-1" style="margin-top: 15px;">
+        <a href="wbc.php"><h1>Last Project</h1>
+        <h2>Walker Baptist Church</h2></a>
+      </div>
+      <div class="col-sm-5" style="margin-top: 15px;">
+        <a href="fta.php"><h1>Next Project</h1>
+        <h2>Flying Tiger Aviation</h2></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="light-pattern-bg">
+    <div class="container taller">
+      <div class="row justify-content-center">
+        <div class="col-sm-4">
+          <img style="max-width: 100%;" src="img/profile.png" alt="Walker Baptist Mockups" />
+        </div>
+
+        <div class="col-sm-5">
+          <h1>I'm Ryann Brown</h1>
+          <h2>and i really like doing a lot.</h2>
+          <p>
+            I started working on websites years ago, and haven't stopped learning new things every day since. Technology is constantly changing and evolving, especially on the web. It's one of the things I love about it. It doesn't get old. With a background in design, as well as experience working with a team at a large company, I am confident that I can work with you to create something custom tailored to fit your needs. Let's get started.
+          </p>
+          <button class="btn btn-primary" onclick="slideOut()" role="button">contact me</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

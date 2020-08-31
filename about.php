@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59235137-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-59235137-5');
+  </script>
+
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico">
+  <title>Ryann Brown | About</title>
+  <meta name="description" content="I'm Ryann Brown, a web designer based in Baton Rouge, Louisiana. I have a passion for web, but I also have a passion for learning, so my skillset is constantly evolving. Helping small businesses provide their clients with functional and user-friendly websites is what I work hard to do for you.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <?php include 'inc/contact-code.php'; ?>
+
+  <div class="pattern-bg">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.php"><img src="img/header-logo.png" height="30" alt="RGB Logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ml-auto" role="navigation">
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact" onclick="slideOut()" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container taller">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-sm-5">
+        <h1>Start With the Basics</h1>
+        <h2>My Design Process</h2>
+        <p>I have an eye for design, along with a passion for showing you how a website can help fulfill your visitor's needs. Throughout the design process, I will include you in every step, eliminating wasted resources and pinpointing exactly what your website needs to maximize its potential. These days, a beautiful design is not all you need in order for your business to grow. It needs content to back the aesthetics. Together, we will get to the root of what valuable content you need, and make it speak volumes.</p>
+        <p>My process typically begins with research on your company and your needs, followed by many many sketches of possible designs for your site. Once I think I'm on a good path for the design, I'll work on a mockup, which is essentially a static image of what a page might look like. Nothing on a mockup is final, and I'll look to you for changes and direction of where we should go from there. Once the design is ready, the coding will begin and that's where the magic happens.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <img class="img-fluid" src="img/slu-sketch.jpg" alt="In Progress Sketch" />
+      </div>
+    </div>
+  </div>
+
+  <div class="light-bg">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-sm-4">
+          <img class="img-fluid" src="img/coding.png" alt="Screenshot of WIP Code" />
+        </div>
+
+        <div class="col-sm-5">
+          <h1>Speak My Language</h1>
+          <h2>Why I Love Code</h2>
+          <p>Code is a beautiful, complex, ever changing thing. There are hundreds of ways to get something done, which can be overwhelming, but it's also a great thing to know anything is possible. I'll work with the code of your site to make sure that it's optimized, accessible, responsive, and more. I can put your site in Wordpress for you if you want to edit a site yourself and aren't comfortable with code. I can add special features, like contact forms and image sliders. If you let me know what your dream is, I will do my very best to make it happen. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center justify-content-center taller">
+      <div class="col-sm-5">
+        <h1>The More You Learn</h1>
+        <h2>I'm Never Done Learning</h2>
+        <p>I have a lot of things I feel passionate about. There are infinitely more things that I find interesting and I refuse to limit myself to learning about only one thing. I don't think this is a weakness, but rather just another thing that keeps me fired up to keep moving forward, and working with the web couldn't be a better place for me. Every week, there's something new, something is changing. There's always something new to learn, and with how fast we are advancing in technology, that's not going to change any time soon.</p>
+      </div>
+    </div>
+  </div>
+
+<footer class="light-pattern-bg">
+  <div class="container taller">
+    <div class="row justify-content-center">
+      <div class="col-sm-4">
+        <img style="max-width: 100%;" src="img/profile.png" alt="Walker Baptist Mockups" />
+      </div>
+
+      <div class="col-sm-5">
+        <h1>I'm Ryann Brown</h1>
+        <h2>and i really like doing a lot.</h2>
+        <p>
+          I started working on websites years ago, and haven't stopped learning new things every day since. Technology is constantly changing and evolving, especially on the web. It's one of the things I love about it. It doesn't get old. With a background in design, as well as experience working with a team at a large company, I am confident that I can work with you to create something custom tailored to fit your needs. Let's get started.
+        </p>
+        <button class="btn btn-primary" onclick="slideOut()" role="button">contact me</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
